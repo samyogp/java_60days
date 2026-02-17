@@ -11,10 +11,7 @@ public class firstprogram {
      System.out.print("one");
       System.out.print("Two");
     System.out.print("Three");
-
-   
-   
-   
+    // system.out.println("one"); [new line]
    
     }
     
