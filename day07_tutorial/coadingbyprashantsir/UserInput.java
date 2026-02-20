@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class UserInput {
     public static void main(String[] args) {
+        // creating an object of Scanner class to take user input from the console.
         Scanner input = new Scanner(System.in);
         System.out.print("Please Enter Your Name:");
         String name = input.nextLine();
