@@ -10,10 +10,11 @@ public class Challenge1 {
 
 
         // reverse right half pyramid of stars in the output.
-        System.out.println("*****\n****\n***\n**\n*");
+        System.out.println("\n\n*****\n****\n***\n**\n*");
+        
 
         // Left Half Pyramid.
-        System.out.println("    *\n   **\n  ***\n ****\n*****");
+        System.out.println("\n\n    *\n   **\n  ***\n ****\n*****");
 
 
 
