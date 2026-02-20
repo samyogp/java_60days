@@ -6,6 +6,7 @@ package day07_tutorial.coadingbyprashantsir;
 public class Variables {
 
     public static void main(String[] args) {
+        //variable Declaration and Initialization.
 
         int myNumber = 865;
         int yourNumber;
@@ -23,10 +24,17 @@ public class Variables {
         myNumber = 900;
         System.out.println("Updated myNumber is: " + myNumber);
 
+        // Different types of variables
+
         float myFloat = 3.0f;   // 'f' is required for float
         System.out.println("myFloat is: " + myFloat);
 
+        // boolean variable
+
         boolean isVegetarian = true;
         System.out.println("isVegetarian: " + isVegetarian);
+
+        String Wishes = "Good Morning";
+        System.out.println("morning Wishes: " + Wishes);
     }
 }
