@@ -12,6 +12,17 @@ public class ThirdTask {
         int secondNumber = input.nextInt();
         int sum = firstNumber + secondNumber;
         System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);
+
+        // subtraction 
+        int subtraction = firstNumber - secondNumber;
+        System.out.println("The subtraction of " + firstNumber+ " and " + secondNumber+ " is: " + subtraction);
+        // multiplication
+        int multiplication = firstNumber * secondNumber;
+        System.out.println("multiplication of " + firstNumber + " and " + secondNumber + " is: " + multiplication);
+        // division
+        int division = firstNumber / secondNumber;
+        System.out.println("division of " + firstNumber + " and " + secondNumber + " is: " + division);
+
         // scanner closed
         input.close();
     }
