@@ -6,6 +6,10 @@ public class Challenge1 {
     public static void main(String[] args) {
         System.out.println("*\n**\n***\n****\n*****");
 
+        // reverse pattern of stars in the output.
+        System.out.println("*****\n****\n***\n**\n*");
+
+
     }
     
 }
