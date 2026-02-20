@@ -1,25 +1,32 @@
 package day07_tutorial.coadingbyprashantsir;
 
-// a variable is a container that holds data that can be changed during the execution of a program. It has a name, a type, and a value. We can use variables to store and manipulate data in our programs.
+// A variable is a container that holds data that can be changed during
+// the execution of a program. It has a name, a type, and a value.
+
 public class Variables {
+
     public static void main(String[] args) {
+
         int myNumber = 865;
-        int YourNumber;
+        int yourNumber;
 
-        System.out.println("YourNumber is: " + myNumber); 
+        System.out.println("myNumber is: " + myNumber);
 
-      //  System.out.println("YourNumber is: " + YourNumber); // this will give an error because we have not initialized the variable yet
-    
-        YourNumber = 500;
-        System.out.println("YourNumber is: " + YourNumber);
+        // yourNumber cannot be used before initialization
+        yourNumber = 500;
+        System.out.println("yourNumber is: " + yourNumber);
 
-     //  we can also change the value of a variable
-        float myFloat = 3.0f;
+        int yourNumber2 = 1000;
+        System.out.println("yourNumber2 is: " + yourNumber2);
+
+        // Changing the value of a variable
+        myNumber = 900;
+        System.out.println("Updated myNumber is: " + myNumber);
+
+        float myFloat = 3.0f;   // 'f' is required for float
+        System.out.println("myFloat is: " + myFloat);
+
         boolean isVegetarian = true;
-        System.out.println("isVegeterian: " + isVegetarian);
-
-
+        System.out.println("isVegetarian: " + isVegetarian);
     }
-
-
 }
