@@ -11,6 +11,8 @@ public class Variables {
         int myNumber = 865;
         int yourNumber;
 
+        
+
         System.out.println("myNumber is: " + myNumber);
 
         // yourNumber cannot be used before initialization
@@ -36,5 +38,9 @@ public class Variables {
 
         String Wishes = "Good Morning";
         System.out.println("morning Wishes: " + Wishes);
+
+        // char example 
+        char myCharacter = 's';
+        System.out.println("myCharacter is: " + myCharacter);
     }
 }
