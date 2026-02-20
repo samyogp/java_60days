@@ -13,8 +13,8 @@ public class Challenge1 {
         System.out.println("*****\n****\n***\n**\n*");
 
         // Left Half Pyramid.
-        System.out.println("  *\n **\n ***\n ****\n *****");
-        
+        System.out.println("    *\n   **\n  ***\n ****\n*****");
+
 
 
     }
