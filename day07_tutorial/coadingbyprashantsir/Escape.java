@@ -8,6 +8,12 @@ public class Escape {
         System.out.println("HEllo \"Coding World\".....");
 
 
+
+        //  double backslash is used to print single backslash in the output.
+        System.out.println("hello \\Coading World\\.....");
+
+
+
     }
     
 }
