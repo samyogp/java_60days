@@ -6,7 +6,7 @@ public class TypeConversion {
         System.out.println(myFloat);
 
 
-        // example making integer
+        // example making integer from float using type casting
         int myInt = (int) 5.0f;
         System.out.println(myInt);
     }
