@@ -14,6 +14,8 @@ public class Challenge1 {
 
         // Left Half Pyramid.
         System.out.println("\n\n    *\n   **\n  ***\n ****\n*****");
+        // k xa solti 
+        
 
 
 
