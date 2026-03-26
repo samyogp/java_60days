@@ -18,6 +18,15 @@ public class ArithmeticDemo1 {
         System.out.println(x/y);
         System.out.println(x*y);
 
+        // enter a number and find sum division multiplication and subtraction of that number.
+        System.out.println("enter a first number x: ");
+        System.out.println("enter a second number y: ");
+
+        System.out.println("x+y: " + (x+y));
+        System.out.println("x-y: " + (x-y));
+        System.out.println("x/y: " + (x/y));
+        System.out.println("x*y: " + (x*y));
+
     }
 
     
