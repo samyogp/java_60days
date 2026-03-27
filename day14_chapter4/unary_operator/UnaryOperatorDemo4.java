@@ -11,6 +11,7 @@ public class UnaryOperatorDemo4 {
         int b = 40;
         System.out.println(b);
         System.out.println(--b);
+        
     }
     
 }
