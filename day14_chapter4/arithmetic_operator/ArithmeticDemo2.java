@@ -20,13 +20,16 @@ public class ArithmeticDemo2 {
      System.out.println("Enter first number A: ");
        java.util.Scanner sc = new java.util.Scanner(System.in);
        int a = sc.nextInt();
-       System.out.println("Enter secomd number B:");
+       System.out.println("Enter second number B:");
          int b = sc.nextInt();
             System.out.println("A + B = " + (a + b));
             System.out.println("A - B = " + (a - b));
              System.out.println("A * B = " + (a * b));
               System.out.println("A / B = " + (a / b));
                System.out.println("A % B = " + (a % b));
+
+            // close the scanner to prevent resource leak
+               sc.close();
                
 
     }
