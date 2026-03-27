@@ -11,7 +11,12 @@ public class UnaryOperatorDemo5 {
     int b = 10;
     System.out.println(b);
     System.out.println(b++);
-    
+
+
+    // for proved we are showing a new value of a and b after incrementing the value by 1.
+    System.out.println("Incremented  value of a: " + a);
+    System.out.println("Incremented value of b: " + b);
+
    } 
     
 }
