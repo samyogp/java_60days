@@ -8,14 +8,14 @@ public class UnaryOperatorDemo6 {
         System.out.println(a--);  // then print the current value of a which is 30 and then decrement the value of a by 1, so now a becomes 29
 
         int b = 40;
-        System.out.println(b);  // 
-        System.out.println(b--);
+        System.out.println(b);  // first print the current value of a which is 40
+        System.out.println(b--);  // then print the current value of a which is 40 and then decrement the value of a by 1 so now become 39.
 
 
         // for proved we are showing a new value of a and b after decrementing the value by 1.
         System.out.println("New value of a: " + a);
         System.out.println("New value of b: " + b);
-        
+
 
 
     }
