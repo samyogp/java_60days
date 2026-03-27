@@ -12,8 +12,8 @@ public class UnaryOperatorDemo3 {
 
     int b = 20;
     System.out.println(b);
-    System.out.println(b++);
-    
+    System.out.println(++b);
+
     
     
 }
