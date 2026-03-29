@@ -5,11 +5,14 @@ public class Learningif {
         
     
 
+    // boolean isMale = false;
     boolean isMale = true;
     String name = "bob";
      System.out.println("before if");
     if (isMale) { 
         System.out.println("MR." + name);
+    } else {
+        System.out.println("Ms." + name);
     }
 
         System.out.println("after if");
