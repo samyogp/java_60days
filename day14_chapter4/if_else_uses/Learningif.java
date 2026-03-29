@@ -10,11 +10,12 @@ public class Learningif {
      System.out.println("before if");
     if (isMale) { 
         System.out.println("MR." + name);
+    }
 
         System.out.println("after if");
-        
 
-    }
+
+    
     
 }
 }
