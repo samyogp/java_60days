@@ -19,7 +19,7 @@ public class Challenge3 {
         int perimeter = 2 * (length + breadth);
 
         System.out.println("perimeter of rectangle: " + perimeter);
-
+        // closing scanner
         input.close();
     }
     
