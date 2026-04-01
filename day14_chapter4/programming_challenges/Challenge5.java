@@ -20,6 +20,8 @@ public class Challenge5 {
         SI = (p * t * r) / 100;
         System.out.println("Simple interest is: " + SI);
         input.close(); 
+        // closing the scanner object to prevent memory leaks
+        
         
     }
     
