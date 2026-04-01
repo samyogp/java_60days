@@ -1,4 +1,4 @@
-package day14_chapter4.relational_operator;
+package day14_chapter4.Relational_operator;
 
 public class RelationalOperatorDemo {
     public static void main(String[] args) {
@@ -12,6 +12,6 @@ public class RelationalOperatorDemo {
         System.out.println("a == b: " + (a == b)); // false
         System.out.println("a != b: " + (a != b)); // true
     }
-    
+
     
 }
