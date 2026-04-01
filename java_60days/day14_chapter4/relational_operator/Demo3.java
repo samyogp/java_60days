@@ -1,4 +1,4 @@
-package day14_chapter4.relational_operator;
+package java_60days.day14_chapter4.relational_operator;
 
 import java.util.Scanner;
 
