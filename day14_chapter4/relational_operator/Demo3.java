@@ -16,14 +16,16 @@ public class Demo3 {
             System.out.println("You got 75% discount");
         } else if (isFemale) {
             System.out.println("you got 50% discount");
-        } else if (age > 60  && !isFemale) {
+        } else if (age > 60) {
+            System.out.println("you got 25% discount");
+        } else if (isFemale) {
             System.out.println("you got 25% discount");
         } else {
             System.out.println("you got no Discount");
+            input.close();
 
         }
-
-        }
-        }
+    }
+}
     
 
