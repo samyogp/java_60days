@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PositiveNegativeZero {
 
-
+// challenge 1 create a program that checks if a number is positive or negative or zero. the program should take input from the user and display the result accordingly.
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to a Number checker");
