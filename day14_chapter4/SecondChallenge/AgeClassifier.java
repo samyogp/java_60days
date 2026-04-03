@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class AgeClassifier {
     public static void main(String[] args) {
+        // age classifier of random person 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your age:");
         int age = input.nextInt();
