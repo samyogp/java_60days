@@ -1,0 +1,27 @@
+package operator_precedence;
+
+public class Demo1 {
+    public static void main(String[] args) {
+
+        // 1. Multiplication before Addition
+        int result1 = 5 + 3 * 2;
+        System.out.println("Example 1 (5 + 3 * 2): " + result1);
+
+        // 2. Parentheses Override Precedence
+        int result2 = (5 + 3) * 2;
+        System.out.println("Example 2 ((5 + 3) * 2): " + result2);
+
+        // 3. Division and Multiplication (Left to Right)
+        int result3 = 20 / 5 * 2;
+        System.out.println("Example 3 (20 / 5 * 2): " + result3);
+
+        // 4. Logical AND vs OR
+        boolean result4 = true || false && false;
+        System.out.println("Example 4 (true || false && false): " + result4);
+
+        // 5. Assignment vs Arithmetic
+        int a = 10;
+        int result5 = a + 5 * 2;
+        System.out.println("Example 5 (a + 5 * 2 where a=10): " + result5);
+    }
+}
