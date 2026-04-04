@@ -7,7 +7,7 @@ public class PrecedenceExample1 {
         // Post-increment (a++) happens AFTER the value is used
         int result = a++ * 2;
 
-        // Explanation:
+       
         // Step 1: use a = 5 → 5 * 2 = 10
         // Step 2: then a becomes 6
 
