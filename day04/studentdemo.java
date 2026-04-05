@@ -20,7 +20,7 @@ public class studentdemo {
         Student s2 = new Student();   // another object
         s2.name = "Shyam";
         s2.age = 22;
-
+       // calling the method to introduce themselves
         s1.introduce();
         s2.introduce();
     }
