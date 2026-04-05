@@ -19,7 +19,7 @@ public class superdemo {
         Car car1 = new Car();   // object created
         car1.color = "Red";
         car1.model = "Honda";
-
+ // calling the methods to start and stop the car
         car1.start();
         car1.stop();
     }
