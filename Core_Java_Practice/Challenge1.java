@@ -12,7 +12,7 @@ public class Challenge1 {
         System.out.println("\n\n*****\n****\n***\n**\n*");
         
 
-        // Left Half Pyramid.
+        // Pyramid of stars in the output.
         System.out.println("\n\n    *\n   **\n  ***\n ****\n*****");
         
         
