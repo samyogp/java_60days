@@ -2,16 +2,17 @@ package day14_chapter4.Third_challenge;
 
 import java.util.Scanner;
 
-public class BitwiseComplement {
+public class RightShiftDemo {
     public static void main(String[] args) {
-       // create a program that shows bitwise compliment of a number.
+        
+    
 
-        Scanner input = new Scanner(System.in);
+      Scanner input = new Scanner(System.in);
         System.out.println("Welcome to showcase of Bitwise complement operator");
         System.out.println("please enter your number");
-        int num = input.nextInt();
+        int num1 = input.nextInt();
 
-        int result = ~num; 
+        int result = num1 >> 1;
 
         System.out.println("Your result is: " + result);
 
@@ -21,3 +22,6 @@ public class BitwiseComplement {
 
     
 }
+
+    
+
