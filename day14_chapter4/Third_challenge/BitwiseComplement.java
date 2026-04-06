@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BitwiseComplement {
     public static void main(String[] args) {
-       
+       // create a program that shows bitwise compliment of a number.
 
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to showcase of Not/Compliment operator");
