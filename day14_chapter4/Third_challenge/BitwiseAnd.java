@@ -8,6 +8,7 @@ public class BitwiseAnd {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the first number:");
+        // Read the first number from user input
         int first = input.nextInt();
         System.out.println("enter the second number: ");
         int second = input.nextInt();
