@@ -12,9 +12,9 @@ public class BitwiseAnd {
         System.out.println("enter the second number: ");
         int second = input.nextInt();
 
-        int result = first & second;
+        int result = first & second; // Perform bitwise AND operation
         System.out.println("the result of " + first + " & " + second + " is: " + result);
-        
+
 
     }
     
