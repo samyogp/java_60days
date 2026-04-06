@@ -2,11 +2,10 @@ package day14_chapter4.Third_challenge;
 
 import java.util.Scanner;
 
-public class BitwiseAnd {
-    
+public class BitwiseOr {
+    // create a program that shows bitwise XOR of two numbers.
 
     public static void main(String[] args) {
-        // create a program that shows bitwise AND of two numbers.
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the first number:");
         // Read the first number from user input
@@ -14,9 +13,8 @@ public class BitwiseAnd {
         System.out.println("enter the second number: ");
         int second = input.nextInt();
 
-        int result = first & second; // Perform bitwise AND operation
-        System.out.println("the result of " + first + " & " + second + " is: " + result);
-
+        int result = first | second; // Perform bitwise OR operation
+        System.out.println("the result of " + first + " | " + second + " is: " + result);
 
     }
     
