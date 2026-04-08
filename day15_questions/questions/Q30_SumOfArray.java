@@ -1,4 +1,4 @@
-package day15_questions.30To85Solutions;
+package day15_questions.questions;
 
 import java.util.*;
 import java.io.*;
