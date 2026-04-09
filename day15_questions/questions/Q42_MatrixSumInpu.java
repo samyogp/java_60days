@@ -21,7 +21,7 @@ public class Q42_MatrixSumInpu {
                 sum = sum + matrix[i][j];
             }
         }
-      // Display the matrix and the sum
+      // Display the matrix 
         System.out.println("Matrix entered:");
         for (int[] row : matrix) { for (int v : row) System.out.print(v + "\t"); System.out.println(); }
         System.out.println("Sum of all elements: " + sum);
