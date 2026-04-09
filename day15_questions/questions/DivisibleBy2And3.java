@@ -14,7 +14,7 @@ public class DivisibleBy2And3 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
+      // Display numbers divisible by both 2 and 3
         System.out.println("Numbers divisible by both 2 and 3:");
         for (int i = 0; i < n; i++) {
             if (arr[i] % 2 == 0 && arr[i] % 3 == 0) {
