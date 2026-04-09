@@ -1,9 +1,9 @@
 package day16_q43to50;
 
 import java.util.Scanner;
-
+// Q43: Display prime numbers between any two integers [BIM 2021]
 public class question43 {
-    // Q43: Enter elements in matrix m x n, display sum of each row and column [BIM 2018]
+   
      static boolean isPrime(int n) {
         if (n < 2) return false;
         for (int i = 2; i <= Math.sqrt(n); i++) {
