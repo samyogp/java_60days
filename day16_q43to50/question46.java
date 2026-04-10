@@ -1,5 +1,5 @@
 package day16_q43to50;
-
+// Q46: Class TwoDPoint, two instances, print distance between them
 class TwoDPoint {
     double x, y;
 
@@ -14,7 +14,7 @@ class TwoDPoint {
         return Math.sqrt(dx * dx + dy * dy);
     }
 }
-// Write a Java program to create a class TwoDPoint with data members x and y, and member functions to initialize the point and calculate the distance between two points.
+
 public class question46 {
     public static void main(String[] args) {
         TwoDPoint p1 = new TwoDPoint();
