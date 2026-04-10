@@ -1,5 +1,6 @@
 package day16_q43to50;
 
+// Q49: Print numbers from 1 to n using recursion
 public class question49 {
     static void print(int n, int current) {
         if (current > n) return;
