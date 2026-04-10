@@ -1,5 +1,5 @@
 package day16_q43to50;
-
+// Q47: Class Rectangle with computeArea, displayArea, two objects [BIM 2015]
 class Rectangle47 {
     double length, breadth;
 
