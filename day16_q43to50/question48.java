@@ -1,5 +1,5 @@
 package day16_q43to50;
-
+// Q48: Class Number with x, y, z and getMax() [BIM 2019]
 class Number48 {
     int x, y, z;
 
