@@ -1,4 +1,4 @@
-package day14_chapter4.Demo1;
+package day14_chapter4/if_else_uses/Demo1;
 
 import java.util.Scanner;
 
