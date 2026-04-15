@@ -17,7 +17,8 @@ public class DefaultConstructor {
     public static void main(String[] args) {
         Car C = new Car();
         System.out.println(C.color); // white
-        
+        System.out.println(C.speed); // 0
+
     }
     
 }
